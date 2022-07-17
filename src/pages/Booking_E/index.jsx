@@ -7,6 +7,8 @@ import "styles/main.scss";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import Header from "components/Header";
+import Footer from "components/Footer";
 
 const contactValidationSchema = yup.object().shape({
   firstName: yup
@@ -69,6 +71,7 @@ function BookingE() {
 
   return (
     <Fragment>
+      <Header />
       <section className='section_booking-E'>
         <div className='left'>
           <div className='upper'>
@@ -190,6 +193,7 @@ function BookingE() {
             </MapContainer>
         </div>
       </section>
+      <Footer />
     </Fragment>
   );
 }
