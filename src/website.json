@@ -1,0 +1,135 @@
+{
+  "tours": [
+    {
+      "title": "Space Tours",
+      "image": "https://static.dw.com/image/62450424_401.jpg",
+      "place": "space"
+    },
+    {
+      "title": "Earth Tours",
+      "image": "https://images.fanart.tv/fanart/planet-earth-53ff5d6a70fc0.jpg",
+      "place": "earth"
+    }
+  ],
+  "planets": [
+    {
+      "id": "1",
+      "url": "https://static.swatch.com/images/product/SO33R100/sa200/SO33R100_sa200_er005.png",
+      "title": "MARS",
+      "description": "Red Planet",
+      "distance": "54.5 MILLION KM",
+      "gravity": "3.711 m/s²",
+      "radius": "3.390 km",
+      "price": "$4199",
+      "about": "Arid, rocky, cold and apparently lifeless, the Red Planet offers few hospitalities. Fans of extreme sports can rejoice, however, for the Red Planet will challenge even the hardiest souls among us. Home to the largest volcano in the solar system, the deepest canyon and crazy weather and temperature patterns, Mars looms as the ultimate lonely planet destination."
+    },
+    {
+      "id": "2",
+      "url": "https://static.swatch.com/images/product/SO33M100/sa200/SO33M100_sa200_er005.png",
+      "title": "MOON",
+      "description": "The Dusty Rock",
+      "distance": "382,400 KM",
+      "gravity": "1.622 m/s²",
+      "radius": "1.737 km",
+      "price": "$2199",
+      "about": "The Moon is Earth's only natural satellite. At about one-quarter the diameter of Earth (comparable to the width of Australia), it is the fifth largest satellite in the Solar System, the largest satellite in the Solar System relative to its major planet, and larger than any known dwarf planet. The Moon is a planetary-mass object that formed a differentiated rocky body, making it a satellite planet under the geophysical definitions of the term."
+    },
+    {
+      "id": "3",
+      "url": "https://cdn.pngsumo.com/hd-fantasy-planet-png-planet-png-transparent-png-image-download-fantasy-planets-png-968_968.png",
+      "title": "EUROPA",
+      "description": "The Dusty Rock",
+      "distance": "382,400 KM",
+      "gravity": "1.622 m/s²",
+      "radius": "1.737 km",
+      "price": "$2199",
+      "about": "With an equatorial diameter of 1,940 miles (3,100 kilometers), Europa is about 90 percent the size of Earth’s Moon. So if we replaced our Moon with Europa, it would appear roughly the same size in the sky as our Moon does, but brighter – much, much brighter. Europa’s surface is made of water ice and so it reflects 5.5 times the sunlight than our Moon does."
+    }
+  ],
+  "events": [
+    {
+      "planet": "MARS 9",
+      "date": "17 July, California",
+      "count": "NEXT VOYAGE"
+    }
+  ],
+  "tourOnEarth": [
+    {
+      "url": "https://assets.euromoneydigital.com/dims4/default/4de69c9/2147483647/strip/true/crop/800x600+0+0/resize/840x630!/quality/90/?url=http%3A%2F%2Feuromoney-brightspot.s3.amazonaws.com%2F3f%2F00%2F8391879ef3a09cc971ade27fef3e%2Fbangkok.jpg",
+      "country": "Thailand",
+      "infosOne": "20+ Sports",
+      "infosTwo": "2d & 3N"
+    },
+    {
+      "url": "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/bali-jack.jpg",
+      "country": "Indonesia",
+      "infosOne": "25+ Sports",
+      "infosTwo": "3d & 3N"
+    },
+    {
+      "url": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/3117192df163b1c655a6081e58961533bd8e1afe/big-317a87546e8649aae22e694d77523453.jpg",
+      "country": "New Zealand",
+      "infosOne": "20+ Sports",
+      "infosTwo": "3d & 3N"
+    }
+  ],
+  "eachTour": [
+    {
+      "image": "https://lp-cms-production.imgix.net/news/2017/06/GettyImages-683743933.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
+      "day": "3",
+      "night": "2",
+      "price": "500",
+      "description": "Explore the Beauty of the island for 3 days and 2 nights with our travel agency",
+      "place": "Indonesia",
+      "hot": "hot deals",
+      "category": "south asia"
+    },
+    {
+      "image": "https://www.bcdtravel.com/move-be/wp-content/uploads/sites/122/Move_MarketMonitor_Japan_slider_May2019.jpg",
+      "day": "3",
+      "night": "2",
+      "price": "800",
+      "description": "Enjoy the Shrimes and blossoms here in this beautiful country",
+      "place": "Japan",
+      "hot": "hot deals",
+      "category": "honeymoon"
+    },
+    {
+      "image": "https://media.istockphoto.com/photos/high-mountain-lake-in-beautiful-violet-pint-sunset-mountines-is-with-picture-id1289804398?b=1&k=20&m=1289804398&s=170667a&w=0&h=U_69oOX25k212SaKejx4qaM9EMo1RZny4SQayNkPuX8=",
+      "day": "3",
+      "night": "2",
+      "price": "600",
+      "description": "Explore the majestic mountains and landscapes day and nights",
+      "place": "Mountains",
+      "hot": "hot deals",
+      "category": "europe"
+    },
+    {
+      "image": "https://georgia4you.ge/assets/images/post_inner_slider/1556539668-ushg.jpg",
+      "day": "5",
+      "night": "4",
+      "price": "900",
+      "description": "This is Svaneti. Explore it!",
+      "place": "Svaneti",
+      "category":"europe"
+    },
+    {
+      "image": "https://static.dw.com/image/60495947_303.jpg",
+      "day": "7",
+      "night": "6",
+      "price": "1100",
+      "description": "This is Egypt. Explore it!",
+      "place": "Egypt",
+      "category": "honeymoon"
+    },
+    {
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-14d941c0e42d27be6d919b5e191ea628.webp",
+      "day": "3",
+      "night": "2",
+      "price": "500",
+      "description": "China, China, China, China",
+      "place": "China",
+      "category":"south asia"
+    }
+  ]
+}

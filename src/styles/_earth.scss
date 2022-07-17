@@ -1,0 +1,408 @@
+@import "./Variables/variables.scss";
+
+.earth_section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/95/472/927/space-sky-digital-art-space-art-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  @include flexCenter(column);
+  .middle {
+    width: 70%;
+    height: 50%;
+    @include flexCenter(column);
+    @media (max-height: 760px) {
+      height: 70%;
+    }
+    h2 {
+      font-size: 5rem;
+      margin: 0;
+      text-align: center;
+      width: 60%;
+      color: white;
+      @media (max-width: 920px) {
+        width: 100%;
+      }
+      @media (max-width: 600px) {
+        font-size: 3rem;
+      }
+    }
+    p {
+      color: white;
+      text-align: center;
+    }
+    button {
+      background-color: #00a651;
+      cursor: pointer;
+      padding: 0.5em;
+      font-size: 1.3rem;
+      color: white;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
+.earth_section-2 {
+  width: 100%;
+  height: 100vh;
+  @include flexCenter(column);
+  .upper {
+    width: 100%;
+    height: 50%;
+    .title {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      justify-content: center;
+      h3 {
+        font-size: 2rem;
+        margin-top: 2em;
+      }
+    }
+    .boxes {
+      width: 100%;
+      height: 70%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .container {
+        width: 15%;
+        height: 60%;
+        padding: 2em;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        cursor: pointer;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        @media (max-height: 840px) {
+          overflow-y: scroll;
+        }
+        p {
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .down {
+    width: 100%;
+    height: 50%;
+    @include flexCenter(column);
+    position: relative;
+    img {
+      object-fit: cover;
+      opacity: 0.25;
+      position: absolute;
+      width: 90%;
+      height: 90%;
+    }
+    .titles {
+      width: 100%;
+      height: 50%;
+      position: relative;
+      @include flexCenter(column);
+      h2 {
+        font-size: 4rem;
+        margin: 0;
+        text-align: center;
+        width: 40%;
+        @media (max-width: 1455px) {
+          width: 80%;
+          font-size: 3.3rem;
+        }
+        @media (max-width: 1000px) {
+          font-size: 3rem;
+        }
+        @media (max-width: 550px) {
+          width: 90%;
+          font-size: 2rem;
+        }
+      }
+      p {
+        font-size: 1.3rem;
+        margin: 0;
+        text-align: center;
+        width: 40%;
+        @media (max-width: 700px) {
+          width: 90%;
+        }
+      }
+    }
+    .divs {
+      width: 100%;
+      height: 50%;
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .boxes {
+        width: 13%;
+        height: 70%;
+        background-color: rgba(255, 255, 255, 0.507);
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+        @include flexCenter(column);
+        border-radius: 13px;
+        @media (max-width: 520px) {
+          width: 20%;
+        }
+        h3 {
+          font-size: 2rem;
+          margin: 0.5em 0 0 0;
+          @media (max-width: 1060px) {
+            font-size: 1.5rem;
+          }
+        }
+        svg {
+          @media (max-width: 1060px) {
+            width: 20%;
+            height: 20%;
+          }
+        }
+        p {
+          font-size: 1.2rem;
+          font-weight: 700;
+          margin: 0.5em 0 0 0;
+          width: 50%;
+          text-align: center;
+          @media (max-width: 1060px) {
+            margin: 0;
+            font-size: 0.8rem;
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+}
+.earth_section-3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .titleDiv {
+    width: 100%;
+    height: 10%;
+    @include flexCenter(row);
+    h3 {
+      font-size: 3rem;
+      text-align: center;
+      margin: 0;
+    }
+  }
+  .maps {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    @media (max-width: 1050px) {
+      flex-direction: column;
+    }
+    .mapContainer {
+      width: 50%;
+      height: 100%;
+      @media (max-width: 1050px) {
+        width: 100%;
+        height: 50%;
+      }
+    }
+    .tours {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      @media (max-width: 1050px) {
+        width: 100%;
+        height: 50%;
+      }
+    }
+  }
+}
+.earth_section-4 {
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(236, 241, 240, 1);
+
+  .title {
+    width: 100%;
+    height: 9rem;
+    .text {
+      width: 100%;
+      height: 50%;
+      @include flexCenter(row);
+      h3 {
+        font-size: 3rem;
+        margin: 0;
+        @media (max-width: 500px) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    .boxes {
+      width: 100%;
+      height: 50%;
+      @include flexCenter(row);
+      justify-content: space-evenly;
+      .filter {
+        height: 50%;
+        width: 10%;
+        background-color: rgba(102, 102, 102, 1);
+        border-radius: 15px;
+        cursor: pointer;
+        @include flexCenter(row);
+        color: white;
+        @media (max-width: 850px) {
+          width: 15%;
+        }
+        &:hover {
+          background-color: #00a651;
+          transition: 700ms;
+          transform: scale(1.2);
+        }
+        &::after {
+          // background-color: rgba(0, 166, 81, 1);
+          background-color: red;
+        }
+        &::before {
+          background-color: gold;
+        }
+        &:active {
+          background-color: blue;
+        }
+        &:checked {
+          background-color: brown;
+        }
+        &:focus {
+          background-color: azure;
+        }
+      }
+    }
+  }
+  .tours {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.earth_section-5 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(236, 241, 240, 1);
+  @media (max-height: 720px) {
+    height: 150vh;
+  }
+  .title {
+    width: 100%;
+    height: 15%;
+    @include flexCenter(row);
+    h3 {
+      margin: 0;
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+  .slider {
+    width: 100%;
+    height: 85%;
+    @include flexCenter(row);
+    overflow: hidden;
+  }
+}
+.section_booking-E {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: wheat;
+  @media (max-width: 1366px) {
+    flex-direction: column;
+    height: 200vh;
+  }
+  .left {
+    width: 50%;
+    height: 100%;
+    @media (max-width: 1366px) {
+      width: 100%;
+      height: 50%;
+    }
+    .upper {
+      width: 100%;
+      height: 20%;
+      font-size: 2rem;
+
+      h1 {
+        margin: 0;
+        width: 50%;
+        transform: translate(2em, 2em);
+        color: red;
+        @media (max-width: 1410px) {
+          width: 100%;
+        }
+        @media (max-width: 1366px) {
+          width: 30%;
+        }
+      }
+    }
+    .down {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      form {
+        width: 100%;
+        height: 90%;
+        transform: translate(2em, 2em);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 1366px) {
+          width: 100%;
+          height: 100%;
+          transform: translate(0, 0);
+          flex-wrap: wrap;
+        }
+        p{
+          margin: 0;
+        }
+        input {
+          width: 60%;
+          height: 3rem;
+          margin: 2em;
+          @media (max-width: 1366px) {
+            width: 40%;
+          }
+        }
+        textarea {
+          width: 60%;
+          min-height: 10rem;
+          height: min-content;
+          margin: 2em;
+        }
+        button {
+          margin: 2em;
+          width: 30%;
+          height: 3rem;
+
+        }
+      }
+    }
+  }
+  .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 1366px) {
+      width: 100%;
+      height: 50%;
+    }
+  }
+}
