@@ -2,6 +2,11 @@ import Mark from "assets/icons/mark";
 import "styles/main.scss";
 
 function Tours({url, day, night, price, description, place}) {
+
+    const moreHandler = () => {
+        
+    }
+
     return ( 
         <div className="tourDiv">
             <div className="image">
@@ -18,7 +23,7 @@ function Tours({url, day, night, price, description, place}) {
                     <p>{place}</p>
                 </div>
                 <div className="more">
-                    <p>Know More</p>
+                    <p onClick={moreHandler}>Know More</p>
                 </div>
             </div>
         </div>

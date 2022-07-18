@@ -180,7 +180,7 @@ function BookingE() {
                 width: "100%",
               }}
               center={center}
-              zoom={3}
+              zoom={10}
               scrollWheelZoom={true}
             >
               <TileLayer
